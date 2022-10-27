@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="./main.css" type="text/css" />
   </head>
   <body>
-    <div class="header">
-      <h1>Job Repository</h1>
-    </div>
-    <div class="login-holder">
+    <div class="header"><h1>Job Repository</h1></div>
+    <div class="signup-holder">
       <br />
+
       <div class="icon-holder">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,15 +28,28 @@
           />
         </svg>
       </div>
+      <div class="option-btn-holder">
+        <a href="signup-user.html">
+          <button class="normal-user-btn">Normal User</button>
+        </a>
+        <a href="signup-employer.html">
+          <button class="employer-btn">Employer</button>
+        </a>
+      </div>
       <form>
-        <p>Email</p>
-        <input type="email" />
+        <p>First Name</p>
+        <input type="text" />
+        <p>Last Name</p>
+        <input type="text" />
+        <p>E-mail</p>
+        <input type="text" />
+        <p>Contact</p>
+        <input type="text" />
         <p>Password</p>
-        <input type="password" />
-        <button class="login-button">Login</button>
-        <br />
-        <p>Don't have an account?<a href="signup-user.html"> Sign Up</a></p>
-        <br />
+        <input type="text" />
+        <button class="signup-button">Sign Up</button>
+
+        <p>Already have an account?<a href="login.html"> Login</a></p>
       </form>
     </div>
   </body>
