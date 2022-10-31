@@ -20,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 70px;
   border-radius: 5px;
   padding-bottom: 10px;
 }
@@ -155,4 +155,46 @@ body {
   color: blue;
   background-color: white;
   border: 2px blue solid;
+}
+.header-home {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  margin-top: -9px;
+  z-index: 5;
+}
+.header-home button {
+  margin-left: 10px;
+  background-color: white;
+  border: 2px white solid;
+  padding: 3px;
+  color: black;
+}
+.header-home button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.header-home input {
+  border: none;
+  background-color: rgb(229, 227, 227);
+  width: 40%;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.main-view {
+  width: 90%;
+  display: flex;
+  margin: 50px auto 0px auto;
+  justify-content: space-around;
 }
