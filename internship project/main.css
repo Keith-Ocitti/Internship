@@ -192,9 +192,86 @@ body {
   border-radius: 3px;
   margin-top: 10px;
 }
-.main-view {
-  width: 90%;
+.home-feed {
+  width: 100%;
+  background-color: white;
   display: flex;
-  margin: 50px auto 0px auto;
+  justify-content: space-between;
+  color: black;
+  margin-top: 50px;
+  background-color: white;
+}
+.text-div {
+  margin-left: 100px;
+  padding-top: 50px;
+  margin-right: 20px;
+}
+.text-div p {
+  margin-top: 20px;
+  
+}
+.picture-div {
+  margin-right: 100px;
+}
+.apply-button {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.job-catergory {
+  display: flex;
   justify-content: space-around;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+
+}
+.job-catergory p:hover {
+  background-color: rgb(229, 227, 227);
+  cursor: pointer;
+}
+.main-job-view {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: -10px;
+
+}
+.individual-jobs {
+  width: 30%;
+  height: 580px;
+  overflow-y: auto;
+}
+.job-card {
+  background-color: white;
+  /* margin-top: 10px; */
+}
+.job-card-title {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.job-card-description {
+  padding: 5px 5px 5px 10px;
+}
+.job-card-description button {
+  border: none;
+  color: rgb(9, 174, 230);
+  background-color: white;
+  cursor: pointer;
+}
+.job-description {
+  width: 65%;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  /* margin-top: 10px; */
+}
+.job-description ul {
+  margin-left: 20px;
 }
