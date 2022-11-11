@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(229, 227, 227);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.signup-holder {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 70px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.signup-holder p {
+  text-align: left;
+  padding-top: 10px;
+  font-weight: 100;
+  margin-left: 25%;
+}
+.signup-holder p a {
+  text-decoration: none;
+  color: blue;
+}
+.signup-holder input {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border-radius: 5px; */
+  border-bottom: 1px gray solid;
+}
+.icon-holder {
+  margin-left: 250px;
+  margin-top: 10px;
+  /* padding-top: 10px; */
+}
+.signup-button {
+  width: 15%;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.option-btn-holder {
+  width: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  margin-top: 10px;
+  border: 1px blue solid;
+}
+.employer-btn {
+  border: none;
+  background-color: white;
+  padding: 5px 7px 5px 3px;
+  cursor: pointer;
+}
+.normal-user-btn {
+  border: none;
+  background-color: blue;
+  color: white;
+  font-weight: 150;
+  padding-left: 2px;
+  cursor: pointer;
+}
+.employer-btn-1 {
+  border: none;
+  background-color: blue;
+  padding: 5px 7px 5px 3px;
+  cursor: pointer;
+  color: white;
+}
+.normal-user-btn-1 {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 150;
+  cursor: pointer;
+  padding: 5px 1px 5px 1px;
+}
+.login-holder {
+  width: 40%;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.login-holder p {
+  text-align: left;
+  padding-top: 5px;
+  font-weight: 100;
+  margin-left: 25%;
+}
+.login-holder p a {
+  text-decoration: none;
+  color: blue;
+}
+.login-holder input {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom: 1px grey solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border-radius: 5px; */
+}
+/* .icon-holder {
+  margin-left: 250px;
+  margin-top: 50px;
+  padding-top: 50px;
+} */
+.login-button {
+  width: 15%;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  color: white;
+  border: 2px blue solid;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.login-button:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: white;
+  border: 2px blue solid;
+}
+.header-home {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  margin-top: -9px;
+  z-index: 5;
+}
+.header-home button {
+  margin-left: 10px;
+  background-color: white;
+  border: 2px white solid;
+  padding: 3px;
+  color: black;
+}
+.header-home button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.header-home input {
+  border: none;
+  background-color: rgb(229, 227, 227);
+  width: 40%;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.home-feed {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-top: 50px;
+  background-color: white;
+}
+.text-div {
+  margin-left: 100px;
+  padding-top: 50px;
+  margin-right: 20px;
+}
+.text-div p {
+  margin-top: 20px;
+  
+}
+.picture-div {
+  margin-right: 100px;
+}
+.apply-button {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.job-catergory {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+
+}
+.job-catergory p:hover {
+  background-color: rgb(229, 227, 227);
+  cursor: pointer;
+}
+.main-job-view {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: -10px;
+
+}
+.individual-jobs {
+  width: 30%;
+  height: 580px;
+  overflow-y: auto;
+}
+.job-card {
+  background-color: white;
+  /* margin-top: 10px; */
+}
+.job-card-title {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.job-card-description {
+  padding: 5px 5px 5px 10px;
+}
+.job-card-description button {
+  border: none;
+  color: rgb(9, 174, 230);
+  background-color: white;
+  cursor: pointer;
+}
+.job-description {
+  width: 65%;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  /* margin-top: 10px; */
+}
+.job-description ul {
+  margin-left: 20px;
+}
