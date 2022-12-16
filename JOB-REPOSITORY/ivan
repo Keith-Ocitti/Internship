@@ -6,7 +6,6 @@ body {
   background-color: rgb(229, 227, 227);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .header {
   background-color: blue;
   width: 100%;
@@ -206,9 +205,6 @@ body {
 .picture-div {
   margin-right: 100px;
 }
-.job-description a{
-  text-decoration: none;
-}
 .apply-button {
   border: none;
   padding: 10px;
@@ -264,8 +260,8 @@ body {
   background-color: white;
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
+  /* margin-top: 10px; */
 }
-
 .job-description ul {
   margin-left: 20px;
 }

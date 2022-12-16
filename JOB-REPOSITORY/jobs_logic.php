@@ -15,7 +15,7 @@ require 'config.php';
 		$_SESSION['date_posted']= $row['date_posted'];
 		$_SESSION['date_of_expiry']= $row['date_of_expiry'];
 		$_SESSION['job_objectives']= $row['job_objectives'];
-		header("location: index.php");
+		header("location: jobs.php");
 
 				
 		

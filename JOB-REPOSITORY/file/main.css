@@ -6,7 +6,6 @@ body {
   background-color: rgb(229, 227, 227);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .header {
   background-color: blue;
   width: 100%;
@@ -185,7 +184,14 @@ body {
   color: blue;
 }
 
-
+.header-home input {
+  border: none;
+  background-color: rgb(229, 227, 227);
+  width: 40%;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
 .home-feed {
   width: 100%;
   background-color: white;
@@ -202,12 +208,10 @@ body {
 }
 .text-div p {
   margin-top: 20px;
+  
 }
 .picture-div {
   margin-right: 100px;
-}
-.job-description a{
-  text-decoration: none;
 }
 .apply-button {
   border: none;
@@ -225,6 +229,7 @@ body {
   margin-top: 10px;
   padding: 10px 0px 10px 0px;
   font-weight: bold;
+
 }
 .job-catergory p:hover {
   background-color: rgb(229, 227, 227);
@@ -235,6 +240,7 @@ body {
   width: 100%;
   justify-content: space-around;
   margin-top: -10px;
+
 }
 .individual-jobs {
   width: 30%;
@@ -264,103 +270,16 @@ body {
   background-color: white;
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
+  /* margin-top: 10px; */
 }
-
 .job-description ul {
   margin-left: 20px;
 }
-
-.dropdown-options a {
-  display: block;
-  color: #000000;
-  padding: 5px;
-  text-decoration: none;
-  padding:20px 40px;
-}
-
-.dropdown-options a:hover {
-  color: #0a0a23;
-  background-color: #ddd;
-  border-radius:5px;
-}
-.dropdown-options {
-  display: none;
-  position: absolute;
-  overflow: auto;
-  background-color:#fff;
-  border-radius:5px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}
-
-.dropdown:hover .dropdown-options {
-  display: block;
-}
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-/*application form css*/
 .form-holder {
-  width: 40%;
-  display: block;
+  /* display: flex; */
+  margin-top: 20px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
-  margin-top: 70px;
-  border-radius: 5px;
-  padding-bottom: 10px;
-}
-.form-holder p {
-  text-align: left;
-  padding-top: 10px;
-  font-weight: 100;
-  margin-left: 25%;
-}
-.form-holder p a {
-  text-decoration: none;
-  color: blue;
-}
-.form-holder input {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  /* border-radius: 5px; */
-  border-bottom: 1px gray solid;
-}
-.form-holder textarea {
-  width: 50%;
-  height: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  /* border-radius: 5px; */
-  border-bottom: 1px gray solid;
-}
-.form-holder .file {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.apply-button {
-  width: 15%;
-  display: block;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: blue;
-  color: white;
-  border: none;
-  padding: 5px;
-  border-radius: 3px;
-  font-weight: bold;
+  background-color: brown;
 }
